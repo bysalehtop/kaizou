@@ -303,3 +303,54 @@ local Tab = Window:CreateTab("ماب المزرعه | grow a garden", 4483362458
 
 
 local Tab = Window:CreateTab("ماب الغابة", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "ماب الغابه 1",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/99NIFT"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "ماب الغابه 2",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/99-Nights-in-the-Forest-OP-SCRIPT-BRING-ITEMS-AUTO-FARM-AND-ETC-71628"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "ماب الغابه 3",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "ماب الغابة 4",
+   Callback = function()
+   loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "ماب الغابة 5",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+   end,
+})
+
+
+
+local Button = Tab:CreateButton({
+   Name = "ماب الغابة 6",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+   end,
+})
+
+
+
