@@ -168,6 +168,34 @@ local Button = Tab:CreateButton({
 })
 
 
+local Button = Tab:CreateButton({
+   Name = "سكربت afk",
+   Callback = function()
+   
+loadstring(game:HttpGet("https://raw.githubusercontent.com/evxncodes/mainroblox/main/anti-afk", true))()
+   end,
+})
+
+
+
+local Button = Tab:CreateButton({
+   Name = "سكربت سرعه",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/kckckckckcc/Speed-hub-update-25/refs/heads/main/Speed%20hub%20%20update%2025"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "سكربت القفل",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sector9922/SECTOR-SHIFT-LOCK/main/SECTOR%20SHIFT%20LOCK"))()
+   end,
+})
+
+
+
+
 
 local Tab = Window:CreateTab("بلوكس فروت |blox fruit", 4483362458) -- Title, Image
 
