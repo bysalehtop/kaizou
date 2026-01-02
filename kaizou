@@ -173,8 +173,47 @@ local Tab = Window:CreateTab("بلوكس فروت |blox fruit", 4483362458) -- T
 
 
 
+local Button = Tab:CreateButton({
+   Name = "سكربت جرافيتي ",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+   end,
+})
 
 
+
+local Button = Tab:CreateButton({
+   Name = "سكربت هوهو | hoho hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "سكربت استرال",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+   end,
+})
+
+
+
+local Button = Tab:CreateButton({
+   Name = "سكربت ازورا ",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+   end,
+})
+
+
+
+local Button = Tab:CreateButton({
+   Name = "سكربت صيد فواكه",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/VNT-UNIVERSAL/Panda-Hub/main/Release/fruitfarm.lua"))()
+   end,
+})
 
 
 local Tab = Window:CreateTab("ماب المزرعه | grow a garden", 4483362458) -- Title, Image
@@ -189,4 +228,4 @@ local Tab = Window:CreateTab("ماب المزرعه | grow a garden", 4483362458
 
 
 
-local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("ماب الغابة", 4483362458) -- Title, Image
