@@ -201,102 +201,47 @@ local Tab = Window:CreateTab("بلوكس فروت |blox fruit", 4483362458) -- T
 
 
 
-local Button = Tab:CreateButton({
-   Name = "سكربت جرافيتي ",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
-   end,
-})
 
-
+local Section = Tab:CreateSection("سكربتات بلوكس مفتاح")
 
 local Button = Tab:CreateButton({
-   Name = "سكربت هوهو | hoho hub",
+   Name = "⚡هوهو هوب ⚡",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "🌑 القمر 🌑",
+   Callback = function()
+   loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+   end,
+})
 
 local Button = Tab:CreateButton({
-   Name = "سكربت استرال",
+   Name = "⚡سبيد ⚡",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+   -- The function that takes place when the button is pressed
    end,
 })
 
 
-
-local Button = Tab:CreateButton({
-   Name = "سكربت ازورا ",
-   Callback = function()
-   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
-   end,
-})
-
+local Section = Tab:CreateSection("سكربتات بدون مفتاح")
 
 
 local Button = Tab:CreateButton({
-   Name = "سكربت صيد فواكه",
+   Name = "🌑جرافتي شبيه ريدز🌑",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/VNT-UNIVERSAL/Panda-Hub/main/Release/fruitfarm.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
    end,
 })
-
 
 local Button = Tab:CreateButton({
-   Name = "سكربت مارو ",
+   Name = "❄️ سكربت استرال ❄️",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
    end,
 })
-
-
-local Button = Tab:CreateButton({
-   Name = "سكربت الريدز",
-   Callback = function()
-   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
-   end,
-})
-
-
-
-
-
-local Button = Tab:CreateButton({
-   Name = "سكربت ايم بوت",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/HomeMadeScripts/Camlock-aimlock/main/obf_Wxr6QgzF76G1y2Ch77KN4Zt5Nz0A6GIl61gitv3mRR2t3V103al5d0g26s4KY04r.lua.txt"))()
-   end,
-})
-
-
-local Button = Tab:CreateButton({
-   Name = "سكربت نايت",
-   Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NightMystic/Night-Mystic-/refs/heads/main/NightMystic"))()
-   end,
-})
-
-
-local Button = Tab:CreateButton({
-   Name = "تجميع الصناديق ",
-   Callback = function()
-   loadstring(game:HttpGet("https://rawscripts.net/raw/XMAS-Blox-Fruits-Cash-Generator-OPEN-SOURCE-and-KEYLESS-25553"))()
-   end,
-})
-
-
-
-
-local Button = Tab:CreateButton({
-   Name = "سكربت نيفا",
-   Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
-   end,
-})
-
-
 
 
 
