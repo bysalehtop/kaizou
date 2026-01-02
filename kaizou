@@ -272,11 +272,21 @@ local Button = Tab:CreateButton({
 
 
 local Button = Tab:CreateButton({
+   Name = "سكربت نايت",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NightMystic/Night-Mystic-/refs/heads/main/NightMystic"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
    Name = "تجميع الصناديق ",
    Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/XMAS-Blox-Fruits-Cash-Generator-OPEN-SOURCE-and-KEYLESS-25553"))()
    end,
 })
+
+
 
 
 local Button = Tab:CreateButton({
