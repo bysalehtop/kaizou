@@ -353,4 +353,50 @@ local Button = Tab:CreateButton({
 })
 
 
+local Tab = Window:CreateTab("ماب السرقة", 4483362458) -- Title, Image
+
+
+local Button = Tab:CreateButton({
+   Name = "ماب السرقة 1",
+   Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "ماب السرقة 2",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c4281c3937ebd537cb9e860182e41141.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت ماب السرقه 3",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c4281c3937ebd537cb9e860182e41141.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "ماب السرقه 4 ",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/good707me/RTXTOP1/refs/heads/main/RTX"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "ماب السرقة 5",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2341c827712daf923191e93377656f67.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "ماب السرقة 6",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRealLBNH/Script/refs/heads/main/Main"))()
+
+   end,
+})
+
 
