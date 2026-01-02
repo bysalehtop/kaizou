@@ -38,6 +38,12 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
+Rayfield:Notify({
+   Title = "سكربت كيفر",
+   Content = "تم تفعيل السكربت ",
+   Duration = 6.5,
+   Image = "rewind",
+})
 
 local Tab = Window:CreateTab("ماذا يعني كيفر ؟", 4483362458) -- Title, Image
 
@@ -59,5 +65,19 @@ local Button = Tab:CreateButton({
    Name = "نسخ رابط قناة الدسكورد",
    Callback = function()
    setclipboard("https://discord.gg/rJDHBcy6ZF")
+   end,
+})
+
+
+local Tab = Window:CreateTab("السكربتات الأساسيه ", 4483362458) -- Title, Image
+
+
+local Section = Tab:CreateSection("تضم هذه القائمه السكربتات العشوائية الاساسيه مثل الطيران وغيره")
+
+
+local Button = Tab:CreateButton({
+   Name = "سكربت الطيران",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))()
    end,
 })
