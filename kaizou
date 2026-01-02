@@ -216,6 +216,52 @@ local Button = Tab:CreateButton({
 })
 
 
+local Button = Tab:CreateButton({
+   Name = "سكربت مارو ",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "سكربت الريدز",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
+   end,
+})
+
+
+
+
+
+local Button = Tab:CreateButton({
+   Name = "سكربت ايم بوت",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/HomeMadeScripts/Camlock-aimlock/main/obf_Wxr6QgzF76G1y2Ch77KN4Zt5Nz0A6GIl61gitv3mRR2t3V103al5d0g26s4KY04r.lua.txt"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "تجميع الصناديق ",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/XMAS-Blox-Fruits-Cash-Generator-OPEN-SOURCE-and-KEYLESS-25553"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "سكربت نيفا",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+   end,
+})
+
+
+
+
+
 local Tab = Window:CreateTab("ماب المزرعه | grow a garden", 4483362458) -- Title, Image
 
 
