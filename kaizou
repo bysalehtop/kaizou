@@ -243,6 +243,13 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "⚡سكربت نايت⚡",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NightMystic/Night-Mystic-/refs/heads/main/NightMystic"))()
+   end,
+})
+
 
 
 local Tab = Window:CreateTab("ماب المزرعه | grow a garden", 4483362458) -- Title, Image
