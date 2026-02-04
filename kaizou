@@ -362,3 +362,12 @@ local Button = Tab:CreateButton({
 })
 
 
+local Tab = Window:CreateTab("ماب تسونامي", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "السكربت 1",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RTX261/script-/refs/heads/main/RTX"))()
+   end,
+})
+
