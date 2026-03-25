@@ -87,11 +87,11 @@ req({
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Kever | كيفير",
+   Name = "سكربتات هاكات MA",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "v0.1",
    LoadingSubtitle = "by saleh",
-   ShowText = "Kever | hub", -- for mobile users to unhide rayfield, change if you'd like
+   ShowText = "MA - script", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
@@ -130,13 +130,8 @@ Rayfield:Notify({
    Image = "rewind",
 })
 
-local Tab = Window:CreateTab("ماذا يعني كيفر ؟", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("ماهو كيفر ؟ هو سكربت عربي تم تصنعه من قبل صالح & كايزو")
-
-local Section = Tab:CreateSection("بماذا يفيدني سكربت كيفر ؟ باختصار هو سكربت يجمع اك حميع السكربتات المهمه والقويه تحت مكان واحد بدون بحث طويل ومعقد.")
-
-local Section = Tab:CreateSection("كيف يمكنني دعم المطورين ؟ يمكنك دعم المطورين عبر القنوات التي بالاسفل")
+local Section = Tab:CreateSection("تجربه")
 
 
 local Button = Tab:CreateButton({
